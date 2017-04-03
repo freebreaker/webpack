@@ -1,3 +1,4 @@
+
 import _ from 'lodash';
 import $ from 'jquery';
 function component () {
@@ -11,4 +12,4 @@ function component () {
   return element.get(0);
 }
 
-document.body.appendChild(component());
+document.body.appendChild(component()); 
